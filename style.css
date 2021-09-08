@@ -6,6 +6,9 @@
 header{
     background-image: url('images/bg-image-1.jpg');
 }
+.fa-shopping-cart{
+    color: white;
+}
 
 nav li {
     margin-left: 20px;
@@ -61,6 +64,20 @@ header p {
     margin-bottom: 40px ;
 }
 
+
+.item{
+    position: relative;
+
+}
+/* .item-icon{
+    position: absolute;
+} */
+.item .pop{
+    top: 40%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
 .watch .icons{
     color: gold;
 }
@@ -87,6 +104,12 @@ opacity: 0;
  border-radius: 5px;
  
 }
+.item-icon {
+    font-size: 100px;
+}
+.item-icon:hover{
+    opacity: 0.3;
+}
 .watch .item:hover  .icon{
     opacity: 1;
 }
@@ -94,4 +117,139 @@ opacity: 0;
 border-radius: 5px;
 }
 
+.coming{
+    margin-top: 70px;
+    background-color: teal;
+    background-image: url(images/coming-BG.jpg);
+/*  */
+}
+.coming h2{
+    padding-top: 25px ;
+    padding-bottom:25px ;
 
+}
+hr{
+    
+    width: 25%;
+    display: inline-block;
+    margin-bottom: 40px ;
+    color:  red;
+    text-align: center;
+    height: 3px;
+    border-radius:1px ;
+}
+
+.coming ul{
+    list-style-type:none ;
+    justify-content: space-between;
+}
+.coming ul li {
+    border-right: solid 1px white ;
+   padding: 2px 20px 0px 0px;
+    
+}
+
+.coming a{
+    text-decoration: none;
+    color: inherit;
+}
+/* ------------------- */
+.coming p{
+    text-align: left;
+    padding-left: 20px;
+
+}
+
+.dp {
+    position: relative;
+}
+
+.dp .pop {
+    top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  
+}
+
+.dp .pop i {
+    font-size: 100px;
+
+
+}
+.bold {
+    padding-right: 10px;
+    font-weight: bolder;
+}
+
+.img-grey{
+    filter: grayscale(100%);
+}
+
+.contact{
+    background-image: url(images/index-11.jpg);
+    padding: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact p {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.contact input {
+    width: 25%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgba(185, 182, 185, 0.308);
+    border: none;
+    outline: none;
+    color: white;
+    padding-left: 10px;
+
+
+
+}
+.contact button{
+    height: 50px;
+    border-radius: 10px;
+  
+}
+
+.partners{
+    background-color: grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+  align-items: center;
+}
+
+.carousel-item .active {
+    display: flex;
+  justify-content: space-between;
+}
+
+.carousel img {
+    margin-right:150px ;
+}
+
+.footer{
+    background-image: url(images/bg-image-1.jpg) ;
+}
+
+.footer-icons i{
+
+padding: 5px;
+text-decoration: none;
+color: white;
+padding-bottom:40px ;
+
+}
+
+.footer-icons i:hover{
+
+    color: tomato;
+
+
+}
